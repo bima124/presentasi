@@ -1,0 +1,1 @@
+<h1 class="font-bold text-[30px] bg-red-500">Ini Footer</h1>
