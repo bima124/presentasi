@@ -1,1 +1,1 @@
-<h1 class="font-bold text-[30px] bg-red-500">Ini Footer</h1>
+<h1 class="flex justify-center" style="font-family:Georgia, 'Times New Roman', Times, serif" >Powered By : Bima Mahendra</h1>

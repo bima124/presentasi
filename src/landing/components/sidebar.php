@@ -9,8 +9,8 @@
                 <li class="text-gray-700">
                     <div class="flex items-center hover:bg-gray-400 hover:bg-opacity-30 rounded-lg p-2 cursor-pointer transition-all duration-300" onclick="toggleSubmenu('articles')">
                         <span class="text-lg min-w-[1.5em]">📄</span>
-                        <span class="ml-3 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm font-medium">Artikel</span>
-                        <span class="ml-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs" id="articles-arrow">▶</span>
+                        <span class="ml-3 whitespace-nowrap opacity-0 group-hover:opacity-100  text-sm font-medium">Artikel</span>
+                        <span class="ml-auto opacity-0 group-hover:opacity-100  text-xs" id="articles-arrow">▶</span>
                     </div>
                     <ul id="articles-menu" class="ml-6 mt-2 space-y-1 opacity-0 group-hover:opacity-100 transition-all duration-300 max-h-0 overflow-hidden">
                         <li class="flex items-center text-xs text-gray-600 hover:text-gray-800 cursor-pointer py-1 pl-2 hover:bg-gray-400 hover:bg-opacity-20 rounded transition-all duration-200" onclick="loadArticleCategory('konsep')">
@@ -31,29 +31,29 @@
                 <!-- Event Gallery -->
                 <li class="flex items-center text-gray-700 hover:bg-gray-400 hover:bg-opacity-30 rounded-lg p-2 cursor-pointer transition-all duration-300" onclick="loadEventGallery()">
                     <span class="text-lg min-w-[1.5em]">🎉</span>
-                    <span class="ml-3 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm font-medium">Event Gallery</span>
+                    <span class="ml-3 whitespace-nowrap opacity-0 group-hover:opacity-100  text-sm font-medium">Event Gallery</span>
                 </li>
 
                 <!-- Foto Klien -->
                 <li class="flex items-center text-gray-700 hover:bg-gray-400 hover:bg-opacity-30 rounded-lg p-2 cursor-pointer transition-all duration-300" onclick="loadPhotoGallery()">
                     <span class="text-lg min-w-[1.5em]">📸</span>
-                    <span class="ml-3 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm font-medium">Foto Klien</span>
+                    <span class="ml-3 whitespace-nowrap opacity-0 group-hover:opacity-100  text-sm font-medium">Foto Klien</span>
                 </li>
 
                 <!-- Contact -->
                 <li class="flex items-center text-gray-700 hover:bg-gray-400 hover:bg-opacity-30 rounded-lg p-2 cursor-pointer transition-all duration-300" onclick="loadContactPage()">
                     <span class="text-lg min-w-[1.5em]">📞</span>
-                    <span class="ml-3 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm font-medium">Kontak</span>
+                    <span class="ml-3 whitespace-nowrap opacity-0 group-hover:opacity-100  text-sm font-medium">Kontak</span>
                 </li>
             </ul>
 
             <!-- Authentication Section at Bottom -->
-            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mb-4">
+            <div class="opacity-0 group-hover:opacity-100  mb-4">
                 <div class="border-t border-gray-400 border-opacity-50 pt-4 space-y-2">
                     <a href="../landing/auth/login.php" class="block w-full bg-[#00a9ce] text-white text-sm py-2 px-3 rounded-md hover:bg-opacity-80 transition-all duration-300 font-medium text-center">
                         Masuk
                     </a>
-                    <a href="../landing/auth/register.php" class="block w-full bg-white text-gray-700 text-sm py-2 px-3 rounded-md hover:bg-gray-50 transition-all duration-300 font-medium border border-gray-300 text-center">
+                    <a href="../auth/register.php" class="block w-full bg-white text-gray-700 text-sm py-2 px-3 rounded-md hover:bg-gray-50 transition-all duration-300 font-medium border border-gray-300 text-center">
                         Daftar
                     </a>
                 </div>

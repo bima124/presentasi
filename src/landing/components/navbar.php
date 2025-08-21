@@ -1,5 +1,4 @@
 <?php
-// Function to get base URL
 function getBaseUrl() {
     $currentPath = $_SERVER['PHP_SELF'];
     $basePath = '';
@@ -20,7 +19,7 @@ function getBaseUrl() {
 $baseUrl = getBaseUrl();
 ?>
 
-<nav class="font-bold text-[30px] w-full h-[5em] flex shadow-lg fixed top-0 left-0 z-50">
+<nav class="font-bold text-[30px] w-full h-[5em] flex shadow-lg fixed top-0 left-0 50">
     <a href="<?= $baseUrl ?>home.php" class="h-full w-[8em] bg-gradient-to-br from-[#00a9ce] to-[#007a9c] flex items-center justify-center relative overflow-hidden hover:opacity-90 transition-opacity">
         <div class="absolute inset-0 bg-white opacity-10 transform -skew-y-12"></div>
         <div class="absolute top-2 right-2 w-4 h-4 bg-white opacity-20 rounded-full"></div>

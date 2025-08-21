@@ -2,8 +2,6 @@
 
 <?php include '../components/navbar.php' ?>
 
-<!-- Side Bar kiri -->
-<?php include '../components/sidebar.php' ?>
 <br><br>
 <div class="ml-[8em] min-h-screen flex justify-center items-center pt-[8em]">
     <div class="bg-white rounded-lg shadow-md px-24 py-12 max-w-md mx-auto">

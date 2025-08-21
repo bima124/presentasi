@@ -1,8 +1,5 @@
 <?php include 'layout/header.php' ?>
-
 <?php include 'components/navbar.php' ?>
-
-<!-- Side Bar kiri -->
 <?php include 'components/sidebar.php' ?>
 
 <!-- Main Content Area -->

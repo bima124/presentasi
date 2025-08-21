@@ -14,12 +14,10 @@
       padding: 0;
     }
 
-    /* Smooth scrolling for entire page */
-    html {
+    h1 {
       scroll-behavior: smooth;
     }
 
-    /* Ensure sections have proper spacing for fixed navbar */
     section {
       scroll-margin-top: 5rem;
     }
