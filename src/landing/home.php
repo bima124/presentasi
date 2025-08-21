@@ -133,7 +133,8 @@
             <!-- Misi -->
             <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-8 border border-gray-200">
                 <div class="text-center mb-6">
-                    <div class="text-5xl mb-4">🚀</div>
+                    <!-- bg-red-700 flex justify-center -->
+                    <div class="text-5xl mb-4">&#128640;</div>
                     <h3 class="text-2xl font-bold text-[#00a9ce]">MISI</h3>
                 </div>
                 <ul class="space-y-4">

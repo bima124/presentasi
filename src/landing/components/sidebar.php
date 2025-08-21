@@ -1,7 +1,7 @@
 <!-- Side Bar kiri -->
 <nav class="flex fixed left-0 top-[10em] z-40">
     <!-- Sidebar Content -->
-    <div id="sidebar" class="bg-gradient-to-b from-gray-100 to-gray-300 h-[calc(90vh-5em)] w-[4em] transition-all duration-300 shadow-lg overflow-hidden hover:w-[13.9em] group">
+    <div id="sidebar" class="bg-gradient-to-b from-gray-100 to-gray-300 h-[calc(90vh-5em)] w-[4em] transition-all duration-300 shadow-lg overflow-hidden hover:w-[12.5em] group">
         <div class="p-3 h-full flex flex-col">
             <!-- Main Navigation -->
             <ul class="space-y-3 mt-4 flex-1">
@@ -50,10 +50,10 @@
             <!-- Authentication Section at Bottom -->
             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mb-4">
                 <div class="border-t border-gray-400 border-opacity-50 pt-4 space-y-2">
-                    <a href="../auth/login.php" class="block w-full bg-[#00a9ce] text-white text-sm py-2 px-3 rounded-md hover:bg-opacity-80 transition-all duration-300 font-medium text-center">
+                    <a href="../landing/auth/login.php" class="block w-full bg-[#00a9ce] text-white text-sm py-2 px-3 rounded-md hover:bg-opacity-80 transition-all duration-300 font-medium text-center">
                         Masuk
                     </a>
-                    <a href="../auth/register.php" class="block w-full bg-white text-gray-700 text-sm py-2 px-3 rounded-md hover:bg-gray-50 transition-all duration-300 font-medium border border-gray-300 text-center">
+                    <a href="../landing/auth/register.php" class="block w-full bg-white text-gray-700 text-sm py-2 px-3 rounded-md hover:bg-gray-50 transition-all duration-300 font-medium border border-gray-300 text-center">
                         Daftar
                     </a>
                 </div>
@@ -77,8 +77,8 @@
         const toggleIcon = document.getElementById('toggleIcon');
 
         if (!sidebarExpanded) {
-            sidebar.classList.remove('hover:w-[13.9em]');
-            sidebar.classList.add('w-[13.9em]', '!opacity-100');
+            sidebar.classList.remove('hover:w-[12.5em]');
+            sidebar.classList.add('w-[12.5em]', '!opacity-100');
             sidebar.classList.remove('group');
 
             // Force show all text
@@ -91,8 +91,8 @@
             toggleIcon.textContent = '←';
             sidebarExpanded = true;
         } else {
-            sidebar.classList.add('hover:w-[13.9em]');
-            sidebar.classList.remove('w-[13.9em]', '!opacity-100');
+            sidebar.classList.add('hover:w-[12.5em]');
+            sidebar.classList.remove('w-[12.5em]', '!opacity-100');
             sidebar.classList.add('group');
 
             // Reset opacity classes
@@ -251,7 +251,6 @@
     function loadPhotoGallery() {
         const mainContent = document.getElementById('mainContent');
         if (!mainContent) {
-            // If mainContent doesn't exist, navigate to home page
             const basePath = getBasePath();
             window.location.href = basePath + 'home.php';
             return;
@@ -265,10 +264,7 @@
                 <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <div class="h-48 flex items-center justify-center relative bg-cover bg-center bg-no-repeat" style="background-image: url('https://logisly.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findex_shipper.f2a6c4a1.jpg&w=3840&q=75');">
                         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                        <div class="text-center text-white relative z-10">
-                            <span class="text-4xl mb-2 block drop-shadow-lg">📦</span>
-                            <p class="text-sm font-medium drop-shadow-md">Muat Barang</p>
-                        </div>
+    
                     </div>
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800 mb-2">PT. ABC Logistik</h3>
@@ -280,10 +276,6 @@
                 <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <div class="h-48 flex items-center justify-center relative bg-cover bg-center bg-no-repeat" style="background-image: url('https://logisly.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findex_ts.d27e9841.jpg&w=3840&q=75');">
                         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                        <div class="text-center text-white relative z-10">
-                            <span class="text-4xl mb-2 block drop-shadow-lg">📦</span>
-                            <p class="text-sm font-medium drop-shadow-md">Muat Barang</p>
-                        </div>
                     </div>
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800 mb-2">CV. Maju Bersama</h3>
@@ -295,10 +287,6 @@
                 <div class="bg-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                     <div class="h-48 flex items-center justify-center relative bg-cover bg-center bg-no-repeat" style="background-image: url('https://logisly.com/_next/image?url=%2Fstatic%2Fimg%2Fkumpulan-truk.png&w=3840&q=75');">
                         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                        <div class="text-center text-white relative z-10">
-                            <span class="text-4xl mb-2 block drop-shadow-lg">📦</span>
-                            <p class="text-sm font-medium drop-shadow-md">Muat Barang</p>
-                        </div>
                     </div>
                     <div class="p-4">
                         <h3 class="font-semibold text-gray-800 mb-2">PT. Global Trading</h3>

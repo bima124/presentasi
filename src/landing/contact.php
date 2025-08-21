@@ -122,12 +122,9 @@
         <!-- Map Placeholder -->
         <div class="lg:col-span-2 bg-white rounded-lg shadow-md p-8">
             <h2 class="text-2xl font-bold text-[#00a9ce] mb-6">Lokasi Kami</h2>
-            <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-                <div class="text-center text-gray-600">
-                    <div class="text-4xl mb-4">🗺️</div>
-                    <p>Peta Lokasi Swift Logistik</p>
-                    <p class="text-sm">Jl. Logistik Raya No. 123, Jakarta Utara</p>
-                </div>
+            <div class="mb-6">
+                            <!-- Google Maps Iframe Embed -->
+                            <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=l.+Logistik+Raya+No.+123%2C+Jakarta+Utara&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border-radius: 0.75rem; overflow: hidden;"></iframe><style>.mapouter{position:relative;text-align:right;height:400px;width:100%;}.gmap_canvas{overflow:hidden;background:none!important;height:400px;width:100%;}</style></div></div>
             </div>
         </div>
 
